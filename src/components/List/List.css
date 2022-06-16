@@ -1,0 +1,22 @@
+.List {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 480px;
+}
+
+.ListItem {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px solid #521751;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+.ListItem:hover,
+.ListItem:active {
+    background-color: rgb(204, 204, 204);
+}
